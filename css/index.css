@@ -261,7 +261,7 @@ header nav div:last-child a {
 }
 
 .yemek-resim img {
-  padding: 20px;
+  padding: 20px 0;
 }
 
 /* about us section */
@@ -399,6 +399,14 @@ footer div {
 @media (max-width: 428px) {
   /* header section */
 
+  h1 {
+    font-size: 6rem;
+  }
+
+  html {
+    font-size: 45%;
+  }
+
   .sosyal-medya-icon div:first-child {
     flex-direction: column;
   }
@@ -412,11 +420,11 @@ footer div {
     height: auto;
   }
 
-  /* about us section */
-
-  .about {
-    height: 200vh;
+  .yemek-resim img {
+    padding: 20px 0;
   }
+
+  /* about us section */
 
   .about h2 {
     width: 100%;
@@ -425,6 +433,10 @@ footer div {
 
   .about-container .text {
     width: 85%;
+  }
+
+  .text p {
+    padding: 10px 0;
   }
 
   /* contact us section */
@@ -455,5 +467,40 @@ footer div {
     height: auto;
     padding-top: 2.5vh;
     font-size: 2rem;
+  }
+
+  footer div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mail-list {
+    display: block;
+    text-align: center;
+  }
+
+  .mail-list form {
+    display: contents;
+  }
+
+  .mail-list form input {
+    width: 75%;
+  }
+
+  .mail-list button {
+    width: 75%;
+  }
+
+  .footer-nav nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .footer-copyright p {
+    text-align: center;
+    font-size: 10px;
+    padding: 0;
   }
 }
