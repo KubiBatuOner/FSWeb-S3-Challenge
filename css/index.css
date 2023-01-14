@@ -261,7 +261,8 @@ header nav div:last-child a {
 }
 
 .yemek-resim img {
-  padding: 20px 0;
+  width: 31%;
+  padding: 20px;
 }
 
 /* about us section */
@@ -421,6 +422,7 @@ footer div {
   }
 
   .yemek-resim img {
+    width: 95%;
     padding: 20px 0;
   }
 

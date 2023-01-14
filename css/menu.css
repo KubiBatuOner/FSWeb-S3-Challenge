@@ -229,6 +229,10 @@ header nav div:last-child a {
   font-size: 3rem;
 }
 
+section.menu {
+  display: none;
+}
+
 /* spacer */
 .spacer {
   width: 100%;
@@ -352,11 +356,29 @@ footer div {
 /* mobile media query */
 @media (max-width: 428px) {
   /* header section */
-  .header-title {
-    width: 75%;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 4rem;
+
+  h1 {
+    font-size: 6rem;
+  }
+
+  html {
+    font-size: 45%;
+  }
+
+  .sosyal-medya-icon div:first-child {
+    flex-direction: column;
+  }
+
+  .sosyal-medya-icon div:last-child a {
+    padding: 10px 5px;
+  }
+
+  article.menu {
+    display: none;
+  }
+
+  section.menu {
+    display: contents;
   }
 
   /* menu */
@@ -364,10 +386,110 @@ footer div {
     background-image: none;
   }
 
+  .menu-container {
+    background-color: rgb(225, 239, 230);
+  }
+
+  .menu-section {
+    width: 51%;
+    display: block;
+  }
+
+  .menu-container h2 {
+    text-align: center;
+    font-size: 7rem;
+    border-bottom: 2rem solid rgb(0, 4, 17);
+    width: 75%;
+  }
+
+  .menu-section h3 {
+    text-align: center;
+    border: 0.5rem solid rgb(0, 4, 17);
+    font-size: 5rem;
+  }
+
+  .menu-section .menu-item:last-child {
+    border-bottom: 0;
+  }
+
+  .menu h2 {
+    color: rgb(0, 4, 17);
+  }
+  .menu h3 {
+    color: rgb(0, 4, 17);
+  }
+  .menu h4 {
+    color: rgb(0, 4, 17);
+  }
+  .menu p {
+    color: rgb(0, 4, 17);
+  }
+
+  .menu-item {
+    justify-content: center;
+    border-bottom: 0.5rem solid rgb(0, 4, 17);
+    padding-bottom: 20px;
+  }
+
+  .menu-item div h4 {
+    font-size: 3.5rem;
+  }
+  .menu-item div p {
+    font-size: 2.7rem;
+  }
+
+  .bilgi h4,
+  p {
+    text-align: center;
+  }
+
+  .kisaltma {
+    font-style: italic;
+  }
+
   /* footer section */
   footer {
     height: auto;
     padding-top: 2.5vh;
     font-size: 2rem;
+  }
+
+  footer div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mail-list {
+    display: block;
+    text-align: center;
+  }
+
+  .mail-list p {
+    padding-bottom: 20px;
+  }
+
+  .mail-list form {
+    display: contents;
+  }
+
+  .mail-list form input {
+    width: 85%;
+  }
+
+  .mail-list button {
+    width: 85%;
+  }
+
+  .footer-nav nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .footer-copyright p {
+    text-align: center;
+    font-size: 15px;
+    padding: 0;
   }
 }

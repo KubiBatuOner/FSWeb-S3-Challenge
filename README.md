@@ -67,8 +67,8 @@ Bitirmeden önce, tasarım dosyalarını gözden geçirmek için 10 dakikanı ay
 HTML/CSS implementasyonu için Google Chrome developer tools(geliştirici araçları) kullanman **gerekmektedir**. Bu araçta ekran boyutlarını değiştirebileceğin bir özellik bulunmaktadır, tarayıcı penceresini küçültmek aynı işlevi görmez. Bu özellik, standart 1920x1080 piksel masaüstü genişliği gibi mevcut monitörünüzün boyutundan daha büyük boyutları da görüntülemene olanak tanır. Geliştirici araçlarını kullanmadan responsive(duyarlı) bir web sitesini düzgün şekilde uygulama konusunda başarılı olamazsın.
 ​
 
-- [ ] Desktop boyutu 1920px width olmalıdır.
-- [ ] Mobil boyutu 428px width olmalıdır.
+- [x] Desktop boyutu 1920px width olmalıdır.
+- [x] Mobil boyutu 428px width olmalıdır.
 - [x] viewport tagını eklemeyi unutmayın!
       ​
       **NOT: Tasarımınızın bu boyutlar arasında harika görünmediğini fark edebilirsin. Bu tamamen normaldir; gerçek bir ürün için, en azından tablet boyutunda bir ara tasarım ve çeşitli ekran boyutları için deneyimi geliştirmek için muhtemelen birkaç kesme eşiği daha olacaktır. Daha fazla pratik yapmak istiyorsan, projenin her boyutta harika görünmesini sağlamaktan çekinmeyin!**
